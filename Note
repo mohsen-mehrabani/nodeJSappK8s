@@ -1,0 +1,16 @@
+docker build -t  stephengrider/multiclient:v5 .
+Kubectl set image deployment/client-deployment client=stephengrider/multiclient:v5
+======================================================================================
+kuebctl get pods
+docker ps 
+docker kill Docker_ID
+======================================================================================
+kubectl create secret generic pgpassword --from-literal POSTGRES_PASSWORD=password
+
+    *********************8version control in git************************
+======================================================================================
+sudo minikube start --vm-driver=none
+======================================================================================
+kubectl describe ingress ingress-services
+======================================================================================
+    cygnetops/multi-server-pgfix-5-11
